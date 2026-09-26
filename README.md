@@ -8,14 +8,6 @@
 
 ---
 
-## ⚠️ Architecture & Origin Notice
-
-**This repository is an original, clean-room rebuild designed specifically for the hackathon criteria.**
-
-While inspired by and referencing architectural concepts from [Dheerajkalisetti/AI-Companion](https://github.com/Dheerajkalisetti/AI-Companion.git), **no code is blindly copied**. Components are being selectively designed, modernized, and migrated to meet strict production-quality engineering standards, modern Gemini frontier model capabilities (incorporating the latest Gemini Flash models), clean licensing, and robust closed-loop safety guarantees.
-
----
-
 ## 🎯 Current Project Objective
 
 Build an ultrafast, voice-driven autonomous computer agent operating at flash speed with end-to-end reliability, perception, and human-in-the-loop safety:
