@@ -1,0 +1,6 @@
+google-genai>=1.67.0
+pyaudio>=0.2.14
+websockets>=13.0
+python-dotenv>=1.0.1
+pyautogui>=0.9.54
+Pillow>=11.0.0

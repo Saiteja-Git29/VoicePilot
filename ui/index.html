@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>VoicePilot — Voice Layer Status</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="panel">
+    <h1>VoicePilot</h1>
+    <p class="subtitle">Real-time voice layer status</p>
+
+    <div class="state" id="state-badge">idle</div>
+
+    <dl class="grid">
+      <dt>Connection</dt>
+      <dd id="connection-status">disconnected</dd>
+
+      <dt>Microphone</dt>
+      <dd id="mic-status">unknown</dd>
+
+      <dt>Assistant</dt>
+      <dd id="speaking-status">silent</dd>
+
+      <dt>Interruption</dt>
+      <dd id="interrupt-status">none</dd>
+    </dl>
+
+    <p class="error" id="error-message"></p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
